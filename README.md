@@ -69,8 +69,3 @@ A VHDL testbench is provided:
 
 ---
 
-##  Notes
-
-- DRAM is emulated using block RAM with modeled latency (10-cycle delay)  
-- Overflow is handled with **16-bit unsigned saturation**  
-
