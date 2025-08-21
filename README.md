@@ -17,6 +17,7 @@ This project builds a custom FPGA circuit that:
 - Uses a **fully unrolled and pipelined datapath** with 128 multipliers and an adder tree.  
 - Implements **signal buffering** and **kernel buffering** to maximize data reuse and avoid stalls.  
 - Produces output signals with **16-bit saturation arithmetic**.
+- Uses dual-clocked FIFO to handle **Clock Domain Crossing** between convolution module and DRAM.
 
 The design integrates multiple modules:
 
